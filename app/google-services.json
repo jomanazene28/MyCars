@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "969583187251",
+    "firebase_url": "https://mycars-bd55d.firebaseio.com",
+    "project_id": "mycars-bd55d",
+    "storage_bucket": "mycars-bd55d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969583187251:android:ae725d183dae0430",
+        "android_client_info": {
+          "package_name": "com.zene.jomana.mycars"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7IMRoA01uMAn0Drao9Dm5O789fIKMkVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

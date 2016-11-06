@@ -39,6 +39,7 @@ public class LogInActivity extends AppCompatActivity {
         if (stEmail.length() == 0) {
             etEmail.setError("Wrong Email");
             isOk = false;
+            //54456465
         }
         if (stPassword.length() == 0) {
             etPassword.setError("Wrong Password");

@@ -39,7 +39,6 @@ public class LogInActivity extends AppCompatActivity {
         if (stEmail.length() == 0) {
             etEmail.setError("Wrong Email");
             isOk = false;
-            //54456465
         }
         if (stPassword.length() == 0) {
             etPassword.setError("Wrong Password");
@@ -74,7 +73,7 @@ public class LogInActivity extends AppCompatActivity {
                 if (task.isSuccessful())
                 {
                     Toast.makeText(LogInActivity.this,"signIn Successful",Toast.LENGTH_SHORT).show();
-                    Intent i=new Intent(LogInActivity.this,ShareActivity.class);
+                    Intent i=new Intent(LogInActivity.this,FirstActivity.class);
                     startActivity(i);
 
                 }
